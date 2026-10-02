@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "lib": ["ESNext", "DOM"],
+    "strict": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./tests/*"]
+    },
+    "types": ["node", "@playwright/test"]
+  },
+  "include": ["tests/**/*", "playwright.config.ts"]
+}
